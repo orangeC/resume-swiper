@@ -1,0 +1,82 @@
+
+    /*音乐图标动画帧*/
+    @keyframes music{
+        0%{transform:rotate(0deg);}
+
+        100%{transform:rotate(360deg);}
+    }
+
+   /*兼容webkit内核的浏览器*/
+    @-webkit-keyframes music{
+        0%{-webkit-transform:rotate(0deg);}
+
+        100%{-webkit-transform:rotate(360deg);}
+    }
+
+
+    /*呼吸*/
+    @keyframes huxi{
+        0%{opacity: 1;}
+
+        50%{opacity:0.2;}
+
+        100%{opacity: 1;}
+    }
+
+    @-webkit-keyframes huxi{
+        0%{opacity: 1;}
+
+        50%{opacity:0.2;}
+
+        100%{opacity: 1;}
+    }
+
+
+     @keyframes arrow2{
+        0%{opacity:0;transform:translateY(0);}
+
+        50%{opacity:1;transform:translateY(-20px);}
+
+        100%{opacity:0;transform:translateY(-40px);}
+    }
+
+     @-webkit-keyframes arrow2{
+        0%{opacity:0;-webkit-transform:translateY(0);}
+
+        50%{opacity:1;-webkit-transform:translateY(-20px);}
+
+        100%{opacity:0;-webkit-transform:translateY(-40px);}
+    }
+
+
+    /*从左淡入*/
+    @keyframes fadeInLeft{
+        0%{transform:translateX(-150%);opacity:0;}
+        100% {transform:translateX(0); opacity:1;}
+    }
+    @-webkit-keyframes fadeInLeft{
+
+        0%{-webkit-transform:translateX(-150%);opacity:0;}
+        100% {-webkit-transform:translateX(0); opacity:1;}
+    }
+
+
+/*公共类*/
+.animated{animation-duration:1.2s;animation-timing-function:linear;-webkit-animation-duration:1.2s;-webkit-animation-timing-function:linear;}
+.infinite{animation-iteration-count:infinite;}
+
+/*动画调用类*/
+.arrow-animate{animation-name:arrow2;-webkit-animation-name:arrow2;}
+.music-animate{animation-name:music;-webkit-animation-name:music;}
+ /*从左淡入*/
+.fadeInLeft{animation-name:fadeInLeft;animation-duration:0.6s;animation-timing-function:ease;
+-webkit-animation-name:fadeInLeft;-webkit-animation-duration:0.6s;-webkit-animation-timing-function:ease;}
+
+.delay-time1{animation-delay:0.3s;}
+.delay-time2{animation-delay:0.6s;}
+.delay-time3{animation-delay:0.9s;}
+.delay-time4{animation-delay:1.2s;}
+.delay-time5{animation-delay:1.5s;}
+.delay-time6{animation-delay:1.8s;}
+
+
