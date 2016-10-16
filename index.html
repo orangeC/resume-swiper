@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>document</title>
     <link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <script type="text/javascript" src="js/fontsize.js"></script>
     <style>
     	html,body,ul,li{margin: 0;padding: 0;}
     	ul,li{list-style: none;}
@@ -12,6 +14,7 @@
     	html,body{position: relative;width: 100%;height: 100%;overflow: hidden;}
     	.swiper-container{width: 100%;height: 100%;overflow: hidden;}
     	.swiper-slide{width: 100%;height: 100%;}
+    	.page1-1{position: absolute;top: 0;left: 0;width: 100%;height: 2.8rem;background-size: 100% 100%;background: url() no-repeat;}
     </style>
    
 </head>
@@ -19,10 +22,12 @@
 
 <div class="swiper-container">
     <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide page1">
+        	<p class="page1-1 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="2s" swiper-animate-delay="0.5s">内容</p>
+        </div>
+        <div class="swiper-slide page2">Slide 2</div>
+        <div class="swiper-slide page3">Slide 3</div>
+        <div class="swiper-slide page4">Slide 4</div>
     </div>
     <!-- 如果需要分页器 -->
     <div class="swiper-pagination"></div>
@@ -31,6 +36,7 @@
 
 <script type="text/javascript" src="js/zepto.min.js"></script>
 <script type="text/javascript" src="js/swiper-3.3.1.jquery.min.js"></script>
+<script type="text/javascript" src="js/swiper.animate1.0.2.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
 	var mySwiper = new Swiper ('.swiper-container', {
@@ -38,7 +44,14 @@ $(document).ready(function(){
 	    loop: true,
 	    
 	    // 如果需要分页器
-	    pagination: '.swiper-pagination'
+	    pagination: '.swiper-pagination',
+	    onInit: function(swiper){ //    Swiper2.x的初始化是onFirstInit
+	      swiperAnimateCache(swiper); //隐藏动画元素 
+	      swiperAnimate(swiper); //初始化完成开始动画
+	    }, 
+	    onSlideChangeEnd: function(swiper){ 
+	      swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+	    } 
 	    
 	  }) 
 })
