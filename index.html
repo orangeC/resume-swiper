@@ -11,11 +11,16 @@
     <style>
     	html,body,ul,li{margin: 0;padding: 0;}
     	ul,li{list-style: none;}
-    	html{font-size: 50px}
-    	html,body{position: relative;width: 100%;height: 100%;overflow: hidden;}
+    	html,body{position: relative;width: 100%;height: 100%;overflow: hidden;font-size: 20px;}
+    	.music-btn{display: block;position:fixed;right:10px;top:10px;width:44px;height:44px;background:url(images/music.png) no-repeat;transform:rotate(0deg);-webkit-transform:rotate(0deg); z-index:100; }
+    	 /*指示箭头*/
+    	.arrow{position: fixed;width:20%;left:40%;bottom:4px;z-index:100;}
+    	.photo{display: block;width:28%;height:2.3rem;margin:0 auto;margin-top:30px;border-radius:50%;margin-bottom: 30px;}
     	.swiper-container{width: 100%;height: 100%;overflow: hidden;}
     	.swiper-slide{width: 100%;height: 100%;}
-    	.page1-1{position: absolute;top: 0;left: 0;width: 100%;height: 2.8rem;background-size: 100% 100%;background: url() no-repeat;}
+    	.page1{background-color: red;}
+    	.page1 p{text-align: center;color:#fff;line-height: 18px;margin-top: 15px;font-weight: bold;}
+    	/*.page1-1{position: absolute;top: 0;left: 0;width: 100%;height: 2.8rem;background-size: 100% 100%;background: url() no-repeat;}*/
     </style>
    
 </head>
@@ -30,7 +35,39 @@
 <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide page1">
-        	<p class="page1-1 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="2s" swiper-animate-delay="0.5s">内容</p>
+	        <img class="photo ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.3s" src="images/1cun.jpg" alt="">
+        	<p class="box ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.6s">
+                <span>姓名：</span>
+                <span>程誉萱</span>
+            </p>
+            <p class="box ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.9s">
+                <span>性别：</span>
+                <span>男</span>
+            </p>
+            <p class="box ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.2s">
+                <span>生日：</span>
+                <span>1994.02.16</span>
+            </p>
+            <p class="box ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+                <span>QQ：</span>
+                <span>651033008</span>
+            </p>
+            <p class="box ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.8s">
+                <span>联系电话：</span>
+                <span>18332563755</span>
+            </p>
+            <p class="box ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="2.1s">
+                <span>专业：</span>
+                <span>计算机科学与技术</span>
+            </p>
+            <p class="box ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="2.4s">
+                <span>毕业院校：</span>
+                <span>燕山大学理仁学院</span>
+            </p>
+            <p class="box ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="2.7s">
+                <span>Email：</span>
+                <span>18332563755@163.com</span>
+            </p>
         </div>
         <div class="swiper-slide page2">Slide 2</div>
         <div class="swiper-slide page3">Slide 3</div>
