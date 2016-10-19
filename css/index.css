@@ -47,18 +47,17 @@ html,body{
     z-index:100;
 }
 .photo{
-    display: block;
     position: absolute;
     width:42%;
     height:3.5rem;
-    margin:0 auto;
-    top: 1.4rem;
+    top: 1.2rem;
     left: 29%;
     border-radius:50%;
 }
 .resume{
     position: absolute;
-    top: 4.5rem;
+    top: 4.4rem;
+    width: 80%;    
     left: 22%;
     font-weight: bold;
     font-size: 2.6em;
@@ -66,14 +65,21 @@ html,body{
     text-shadow: 2px 2px 5px #424242;
     font-family: "DejaVu Sans"
 }
+.position{
+    position: absolute;
+    top: 7.1rem;
+    left: 28%;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #212121;
+}
 .name{
     position: absolute;
-    top: 8.8rem;
-    left: 41%;
+    top: 8.6rem;
+    left: 43%;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 0.9em;
     color: #212121;
-    font-family: "黑体"
 }
 .swiper-container{
     width: 100%;
@@ -88,7 +94,27 @@ html,body{
     background-color: #CFD8DC;
 }
 .page2{
-    background-color: #B0BEC5;
+    background-color: #E0F2F1;
+}
+.font1{
+    display: block;
+    margin-top: 0.7rem;
+    margin-left: 33%;
+    color: #00838F;
+    font-size: 6.2em;
+}
+.info{
+    margin-top: 0.1rem;
+    margin-bottom: 0.8rem;
+    margin-left: 37%;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #212121;
+}
+.box{
+    margin-left: 35%;
+    font-size: 0.7em;
+    line-height: 0.6rem;
 }
 /*.page1 p{
     text-align: center;
