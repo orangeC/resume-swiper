@@ -47,13 +47,13 @@ html,body{
     position: absolute;
     width:42%;
     height:3.5rem;
-    top: 8%;
+    top: 6.5%;
     left: 29%;
     border-radius:50%;
 }
 .resume{
     position: absolute;
-    top: 38%;
+    top: 40%;
     width: 80%;    
     left: 22%;
     font-weight: bold;
@@ -64,7 +64,7 @@ html,body{
 }
 .position{
     position: absolute;
-    top: 66%;
+    top: 67%;
     left: 28%;
     font-weight: bold;
     font-size: 0.9em;
@@ -72,7 +72,7 @@ html,body{
 }
 .name{
     position: absolute;
-    top: 79%;
+    top: 80%;
     left: 43%;
     font-weight: bold;
     font-size: 0.9em;
@@ -120,28 +120,28 @@ html,body{
 }
 .font4{
     position: absolute;
-    bottom: 0.9rem;
+    bottom: 0.7rem;
     left: 3%;
     font-size: 4.1em;
     color: #40C4FF;
 }
 .font5{
     position: absolute;
-    bottom: 0.9rem;
+    bottom: 0.7rem;
     left: 28%;
     font-size: 3.6em;
     color: #78909C;
 }
 .font6{
     position: absolute;
-    bottom: 0.9rem;
+    bottom: 0.7rem;
     left: 54%;
     font-size: 3.4em;
     color: #69F0AE;
 }
 .font7{
     position: absolute;
-    bottom: 0.9rem;
+    bottom: 0.7rem;
     left: 78%;
     font-size: 3.4em;
     color: #37474F;
