@@ -91,10 +91,13 @@ html,body{
     background-color: #CFD8DC;
 }
 .page2{
-    background-color: #E0F2F1;
+    background-color: #EDE7F6;
 }
 .page3{
     background-color: #FFFDE7;
+}
+.page4{
+    background-color: #E0F7FA;
 }
 .page3-c{
     width: 95%;
@@ -110,6 +113,39 @@ html,body{
 .font2{
     margin-top: 0.4rem;
 }
+.font3{
+    margin-top: 0.2rem;
+    font-size: 5.8em;
+    margin-left: 37%;
+}
+.font4{
+    position: absolute;
+    bottom: 11%;
+    left: 3%;
+    font-size: 4.1em;
+    color: #40C4FF;
+}
+.font5{
+    position: absolute;
+    bottom: 10%;
+    left: 28%;
+    font-size: 3.6em;
+    color: #78909C;
+}
+.font6{
+    position: absolute;
+    bottom: 11%;
+    left: 54%;
+    font-size: 3.4em;
+    color: #69F0AE;
+}
+.font7{
+    position: absolute;
+    bottom: 11%;
+    left: 78%;
+    font-size: 3.4em;
+    color: #37474F;
+}
 .info{
     margin-top: 0.1rem;
     margin-bottom: 0.4rem;
@@ -117,6 +153,10 @@ html,body{
     font-weight: bold;
     font-size: 1.2em;
     color: #212121;
+}
+.info3{
+    margin-left: 38%;
+    margin-top: -0.2rem;
 }
 .box{
     margin-left: 35%;
@@ -140,6 +180,9 @@ html,body{
     color: #212121;
     margin-left: 11%;
     margin-top: 0.2rem
+}
+.content2 li{
+    margin-bottom: 0.15rem;
 }
 /*.page1 p{
     text-align: center;

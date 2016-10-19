@@ -22,6 +22,9 @@
 		margin-top: 5%;
 		margin-bottom: 0.2rem;
 	}
+	.font3{
+		display: none;
+	}
 }
 @media(min-width: 375px){
 	.photo{
@@ -74,6 +77,21 @@
     	top: 7.8rem;
 		left: 46%;
 	}
+	.font3{
+		margin-top: 0.6rem;
+	    font-size: 8em;
+	    margin-left: 39%;
+	}
+	.info3{
+		margin-left: 41%;
+		font-size: 1.6em;
+    	margin-top: -0.2rem;
+	}
+	.content2 li{
+		width: 84%;
+		font-size: 1.4em;
+		margin-left: 11%;
+	}
 }
 @media(min-width: 768px){
 
@@ -124,5 +142,41 @@
 	    color: #212121;
 	    margin-left: 15%;
 	    margin-top: 0.2rem
+	}
+	.font3{
+		margin-top: 0.3rem;
+	    font-size: 8.3em;
+	    margin-left: 42%;
+	}
+	.info3{
+		margin-left: 43%;
+		font-size: 1.8em;
+    	margin-top: -0.2rem;
+	}
+	.content2 li{
+		font-size: 1.1em;
+	    color: #212121;
+	    margin-left: 5%;
+	    margin-top: 0.2rem
+	}
+	.font4{
+	    bottom: 9%;
+	    left: 8%;
+	    font-size: 4.5em;
+	}
+	.font5{
+	    bottom: 8%;
+	    left: 32%;
+	    font-size: 4em;
+	}
+	.font6{
+	    bottom: 9%;
+	    left: 58%;
+	    font-size: 3.8em;
+	}
+	.font7{
+	    bottom: 9%;
+	    left: 82%;
+	    font-size: 3.8em;
 	}
 }

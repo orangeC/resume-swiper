@@ -83,7 +83,22 @@
             </ul>
         </div>
         </div>
-        <div class="swiper-slide page4">Slide 4</div>
+        <div class="swiper-slide page4">
+        <div class="page3-c">
+            <i class="iconfont font1 font3">&#xe651;</i>
+            <h4 class="info info3">专业技能</h4>
+            <ul class="content content2">
+                <li>能够应用react前端开发框架并配合javascriptES6语法进行开发，使用node.JS服务器端express框架以及mongoDB数据库实现网站增、删、改、查功能,结构清晰,代码可维护性强</li>
+                <li>掌握网页响应式设计,能够开发移动端页面,熟练使用swiper手机端应用库</li>
+                <li>应用HTML5+CSS3、DIV+CSS等网站前端技术，熟练编写标准前端代码，熟悉浏览器兼容问题解决方案</li>
+                <li>掌握javascript语言完成交互设计，熟悉jQuery库、bootstrap库，实现网页的动态效果与页面交互，熟悉Ajax技术</li>
+            </ul>
+            <i class="iconfont font4">&#xe64c;</i>
+            <i class="iconfont font5">&#xe949;</i>
+            <i class="iconfont font6">&#xe660;</i>
+            <i class="iconfont font7">&#xe785;</i>
+        </div>
+        </div>
     </div>
     
     
@@ -97,6 +112,7 @@ $(document).ready(function(){
 	var mySwiper = new Swiper ('.swiper-container', {
 	    direction: 'vertical',
 	    loop: false,
+        initialSlide :3,
 	    
 	    onInit: function(swiper){ //    Swiper2.x的初始化是onFirstInit
 	      swiperAnimateCache(swiper); //隐藏动画元素 
