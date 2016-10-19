@@ -41,19 +41,39 @@ html,body{
  /*指示箭头*/
 .arrow{
     position: fixed;
-    width:20%;
-    left:40%;
-    bottom:4px;
+    width:16%;
+    left:42%;
+    bottom:1%;
     z-index:100;
 }
 .photo{
     display: block;
-    width:28%;
-    height:2.3rem;
+    position: absolute;
+    width:42%;
+    height:3.5rem;
     margin:0 auto;
-    margin-top:30px;
+    top: 1.4rem;
+    left: 29%;
     border-radius:50%;
-    margin-bottom: 30px;
+}
+.resume{
+    position: absolute;
+    top: 4.5rem;
+    left: 22%;
+    font-weight: bold;
+    font-size: 2.6em;
+    color: #37474F;
+    text-shadow: 2px 2px 5px #424242;
+    font-family: "DejaVu Sans"
+}
+.name{
+    position: absolute;
+    top: 8.8rem;
+    left: 41%;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #212121;
+    font-family: "黑体"
 }
 .swiper-container{
     width: 100%;
@@ -65,13 +85,16 @@ html,body{
     height: 100%;
 }
 .page1{
-    background-color: red;
+    background-color: #CFD8DC;
 }
-.page1 p{
+.page2{
+    background-color: #B0BEC5;
+}
+/*.page1 p{
     text-align: center;
     color:#fff;
     line-height: 18px;
     margin-top: 15px;
     font-weight: bold;
-}
+}*/
 /*.page1-1{position: absolute;top: 0;left: 0;width: 100%;height: 2.8rem;background-size: 100% 100%;background: url() no-repeat;}*/
