@@ -1,0 +1,77 @@
+html,body,ul,li{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+html,body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 20px;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot'); /* IE9*/
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:50px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+.music-btn{
+    display: block;
+    position:fixed;
+    right:10px;
+    top:10px;
+    width:44px;
+    height:44px;
+    background:url(images/music.png) no-repeat;
+    transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
+    z-index:100; 
+ }
+ /*指示箭头*/
+.arrow{
+    position: fixed;
+    width:20%;
+    left:40%;
+    bottom:4px;
+    z-index:100;
+}
+.photo{
+    display: block;
+    width:28%;
+    height:2.3rem;
+    margin:0 auto;
+    margin-top:30px;
+    border-radius:50%;
+    margin-bottom: 30px;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.swiper-slide{
+    width: 100%;
+    height: 100%;
+}
+.page1{
+    background-color: red;
+}
+.page1 p{
+    text-align: center;
+    color:#fff;
+    line-height: 18px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+/*.page1-1{position: absolute;top: 0;left: 0;width: 100%;height: 2.8rem;background-size: 100% 100%;background: url() no-repeat;}*/
