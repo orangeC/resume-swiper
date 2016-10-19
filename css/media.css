@@ -15,6 +15,13 @@
 		top: 8.5rem;
    	    left: 42%;
 	}
+	.font2{
+		display: none;
+	}
+	.info{
+		margin-top: 5%;
+		margin-bottom: 0.2rem;
+	}
 }
 @media(min-width: 375px){
 	.photo{
@@ -25,6 +32,15 @@
 	}
 	.position{
 		left: 29%;
+	}
+	.font2{
+		margin-top: 0.2rem;
+	}
+	.info{
+		margin-bottom: 0.2rem;
+	}
+	.project{
+		margin-top: 7%;
 	}
 }
 @media(min-width: 411px){
@@ -37,6 +53,9 @@
 	}
 	.name{
 		left: 44%;
+	}
+	.project{
+		margin-top: 9%;
 	}
 }
 @media(min-width: 600px){
@@ -79,5 +98,31 @@
 	}
 	.box{
 		font-size: 1.2em
+	}
+	.font2{
+    	font-size: 8.5em;
+    	margin-left: 39%;
+	}
+	.info2{
+		font-size: 2em;
+		margin-left: 40%
+	}
+	.project{
+	    font-size: 1.4em;
+	    font-weight: bold;
+	    color: #212121;
+	    margin-left: 15%;
+	    margin-top: 2.5%;
+	}
+	.time{
+	    font-size: 0.8em;
+	    color: #212121;
+	    margin-left: 15%;
+	}
+	.content{
+	    font-size: 1.1em;
+	    color: #212121;
+	    margin-left: 15%;
+	    margin-top: 0.2rem
 	}
 }

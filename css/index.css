@@ -1,9 +1,6 @@
-html,body,ul,li{
+html,body,ul,li,div,p{
     margin: 0;
     padding: 0;
-}
-ul,li{
-    list-style: none;
 }
 html,body{
     position: relative;
@@ -96,16 +93,26 @@ html,body{
 .page2{
     background-color: #E0F2F1;
 }
+.page3{
+    background-color: #FFFDE7;
+}
+.page3-c{
+    width: 95%;
+}
 .font1{
     display: block;
-    margin-top: 0.7rem;
+    margin-top: 0.5rem;
     margin-left: 33%;
+    margin-bottom: 0.4rem;
     color: #00838F;
     font-size: 6.2em;
 }
+.font2{
+    margin-top: 0.4rem;
+}
 .info{
     margin-top: 0.1rem;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.4rem;
     margin-left: 37%;
     font-weight: bold;
     font-size: 1.2em;
@@ -114,7 +121,25 @@ html,body{
 .box{
     margin-left: 35%;
     font-size: 0.7em;
-    line-height: 0.6rem;
+    line-height: 0.9rem;
+}
+.project{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #212121;
+    margin-left: 11%;
+    margin-top: 3%;
+}
+.time{
+    font-size: 0.4em;
+    color: #212121;
+    margin-left: 11%;
+}
+.content{
+    font-size: 0.7em;
+    color: #212121;
+    margin-left: 11%;
+    margin-top: 0.2rem
 }
 /*.page1 p{
     text-align: center;
