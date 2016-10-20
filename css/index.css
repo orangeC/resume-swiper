@@ -1,4 +1,4 @@
-html,body,ul,li,div,p,span{
+html,body,ul,li,div,p,span,i{
     margin: 0;
     padding: 0;
 }
@@ -307,17 +307,38 @@ html,body{
     margin-top: -0.6rem;
     margin-left: 36%
 }
-.info5{
+/*.info44{
     margin-top: -0.62rem;
     margin-left: 36.5%
+}*/
+.info{
+    margin-top: -0.15rem;
+    margin-bottom: 0.2rem;
+    margin-left: 37%;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #212121;
 }
-.font18{
+.info5{
+    position: absolute;
+    top: 2.28rem;
+    color: #212121;
+    font-weight: bold;
+}
+/*.font44{
     display: block;
     margin-bottom: 0.4rem;
     color: #00838F;
-    margin-top: -0.65rem;
+    margin-top: 0.01%;
     font-size: 8em;
     margin-left: 27%;
+}*/
+.font18{
+    position: absolute;
+    top: -0.65rem;
+    font-size: 8em;
+    left: 27%;
+    color: #00838F;
 }
 .font19{
     position: absolute;
