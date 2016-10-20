@@ -48,7 +48,7 @@
 	}
 	.info5{
 		top: 0.06rem;
-		left: -0.3s%
+		left: -0.3%
 	}
 	.font20{
 	    top: 1.15rem;
@@ -90,13 +90,13 @@
 		left: 29%;
 	}
 	.font2{
-		margin-top: 0.2rem;
+		margin-top: 0.19rem;
 	}
-	.info{
-		margin-bottom: 0.2rem;
+	.info2{
+		margin-bottom: 0.01rem;
 	}
 	.project{
-		margin-top: 7%;
+		margin-top: 0.15rem;
 	}
 	.font4{
 	    top: 7.72rem;
@@ -110,7 +110,22 @@
 	.font7{
 	    top: 8rem;
 	}
-
+	.word1{
+	    top: 3.78rem;
+	    left: 37.3%;
+	}
+	.word2{
+	    top: 4.78rem;
+	    left: 39.3%;
+	}
+	.word3{
+	    top: 5.64rem;
+	    left: 27.1%;
+	}
+	.word4{
+	    top: 6.59rem;
+	    left: 42.2%;
+	}
 }
 @media(min-width: 411px){
 	.resume{
