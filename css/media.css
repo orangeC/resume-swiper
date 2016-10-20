@@ -29,7 +29,19 @@
 		margin-top: -0.03rem;
 	}
 	.info3{
-		margin-top: -0.6rem;
+		margin-top: 0.2rem;
+	}
+	.font4{
+		top: 6.77rem;
+	}
+	.font5{
+		top: 7.12rem;
+	}
+	.font6{
+		top: 7.12rem;
+	}
+	.font7{
+		top: 7.12rem;
 	}
 }
 @media(min-width: 375px){
@@ -52,16 +64,16 @@
 		margin-top: 7%;
 	}
 	.font4{
-	    bottom: 2rem;
+	    top: 7.72rem;
 	}
 	.font5{
-	    bottom: 2rem;
+	    top: 8rem;
 	}
 	.font6{
-	    bottom: 2rem;
+	    top: 8rem;
 	}
 	.font7{
-	    bottom: 2rem;
+	    top: 8rem;
 	}
 }
 @media(min-width: 411px){
@@ -79,16 +91,16 @@
 		margin-top: 9%;
 	}
 	.font4{
-	    bottom: 2.2rem;
+	    top: 7.05rem;
 	}
 	.font5{
-	    bottom: 2.2rem;
+	    top: 7.25rem;
 	}
 	.font6{
-	    bottom: 2.2rem;
+	    top: 7.25rem;
 	}
 	.font7{
-	    bottom: 2.2rem;
+	    top: 7.25rem;
 	}
 	.info3{
 		margin-top: -0.3rem;
@@ -302,8 +314,92 @@
 	.font8{
 		margin-top: 0.5rem;
 	}
-	.info3{
+	.info4{
 		margin-left: 39.5%;
 		margin-top: -0.03rem
+	}
+	.hobby{
+		font-size: 1.1em;
+	}
+	.font9{
+	    top: 2.6rem;
+	    left: 15%;
+	    font-size: 4.3em;
+	}
+	.hobby1{
+	    top: 3.61rem;
+	    left: 15.2%;
+	}
+	.font10{
+	    top: 2.68rem;
+	    left: 43.5%;
+	    font-size: 4.3em;
+	}
+	.hobby2{
+	    top: 3.61rem;
+	    left: 46.1%;
+	}
+	.font11{
+	    top: 2.66rem;
+	    left: 73%;
+	    font-size: 4.4em;
+	}
+	.hobby3{
+	    top: 3.61rem;
+	    left: 75.1%;
+	}
+	.font12{
+	    top: 4.18rem;
+	    left: 14%;
+	    font-size: 4.3em;
+	}
+	.hobby4{
+	    top: 5.2rem;
+	    left: 17%;
+	}
+	.font13{
+	    top: 4.25rem;
+	    left: 45%;
+	    font-size: 4.1em;
+	}
+	.hobby5{
+	    top: 5.22rem;
+	    left: 47.5%;
+	}
+	.font14{
+	    top: 4.3rem;
+	    left: 73%;
+	    font-size: 4em;
+	}
+	.hobby6{
+	    top: 5.23rem;
+	    left: 76.5%;
+	}
+	.font15{
+	    top: 5.93rem;
+	    left: 15.5%;
+	    font-size: 3.9em;
+	}
+	.hobby7{
+	    top: 6.88rem;
+	    left: 18%;
+	}
+	.font16{
+	    top: 5.9rem;
+	    left: 44.8%;
+	    font-size: 4.3em;
+	}
+	.hobby8{
+	    top: 6.91rem;
+	    left: 47.8%;
+	}
+	.font17{
+	    top: 5.9rem;
+	    left: 74.8%;
+	    font-size: 3.8em;
+	}
+	.hobby9{
+	    top: 6.92rem;
+	    left: 76.5%;
 	}
 }
