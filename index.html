@@ -30,51 +30,51 @@
             <p class="name ani" swiper-animate-effect="flipInX" swiper-animate-duration="1s" swiper-animate-delay="2.1s">程誉萱</p>
         </div>
         <div class="swiper-slide page2">
-            <i class="iconfont font1">&#xe6ab;</i>
-            <h4 class="info">基本信息</h4>
-            <p class="box " >
+            <i class="iconfont font1 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">&#xe6ab;</i>
+            <h4 class="info ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1s">基本信息</h4>
+            <p class="box ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s" >
                 <span>姓名：</span>
                 <span>程誉萱</span>
             </p>
-            <p class="box " >
+            <p class="box ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="1.9s" >
                 <span>年龄：</span>
                 <span>23岁</span>
             </p>
-            <p class="box " >
+            <p class="box ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="2.3s" >
                 <span>专业：</span>
                 <span>计算机科学与技术</span>
             </p>
-            <p class="box " >
+            <p class="box ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="2.7s" >
                 <span>毕业院校：</span>
                 <span>燕山大学里仁学院</span>
             </p>
-            <p class="box" >
+            <p class="box ani"  swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="3.1s">
                 <span>学历：</span>
                 <span>全日制本科</span>
             </p>
         </div>
         <div class="swiper-slide page3">
         <div class="page3-c">
-            <i class="iconfont font1 font2">&#xe625;</i>
-            <h4 class="info info2">开发经历</h4>
-            <p class="project " >
+            <i class="iconfont font1 font2 ani" swiper-animate-effect="slideInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">&#xe625;</i>
+            <h4 class="info info2 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1s">开发经历</h4>
+            <p class="project ani" swiper-animate-effect="slideInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s">
                 <span>电商网站客户端项目</span>
             </p>
-            <p class="time " >
+            <p class="time ani" swiper-animate-effect="slideInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s">
                 <span>2016.08-2016.09</span>
             </p>
-            <ul class="content">
+            <ul class="content ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.6s" swiper-animate-delay="2s">
                 <li>负责项目web前端开发,根据产品需求和UI效果图利用sublime编辑器进行html/css标准网页制作,JS逻辑设计与开发,完成商品与提交页面的制作</li>
                 <li>运用jquery库实现网页的动态效果与页面交互</li>
                 <li>解决主流浏览器兼容性问题,对网站用户体验性能进行优化</li>
             </ul>
-            <p class="project " >
+            <p class="project ani" swiper-animate-effect="slideInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="2.5s">
                 <span>里仁学院与软酷网合作网站制作项目</span>
             </p>
-            <p class="time " >
+            <p class="time ani" swiper-animate-effect="slideInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="2.5s">
                 <span>2016.07-2016.08</span>
             </p>
-            <ul class="content">
+            <ul class="content ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.6s" swiper-animate-delay="2.8s">
                 <li>负责前端修改调试和开发工作,应用html,css3,js技术,与后台紧密配合,确保代码有效链接</li>
                 <li>使用ajax技术进行客户端与服务器端连接,传输数据，实现异步交互</li>
                 <li>运用jquery,bootstrap,iconfont等库完成特效编写以及使用插件实现特效</li>
@@ -145,7 +145,7 @@ $(document).ready(function(){
 	var mySwiper = new Swiper ('.swiper-container', {
 	    direction: 'vertical',
 	    loop: false,
-        initialSlide :0,
+        initialSlide :2,
 	    
 	    onInit: function(swiper){ //    Swiper2.x的初始化是onFirstInit
 	      swiperAnimateCache(swiper); //隐藏动画元素 
