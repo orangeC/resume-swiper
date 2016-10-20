@@ -1,2 +1,2 @@
 # resume-swiper
-   个人简介  
+   personal resume
