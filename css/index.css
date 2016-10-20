@@ -99,6 +99,12 @@ html,body{
 .page4{
     background-color: #E0F7FA;
 }
+.page5{
+    background-color: #F3E5F5;
+}
+.page6{
+    background-color: #FFEBEE;
+}
 .page3-c{
     width: 95%;
 }
@@ -252,6 +258,9 @@ html,body{
     position: absolute;
     font-size: 0.6em;
 }
+.page5 i:not(.font8){
+    color: #00838F;
+}
 
 .info{
     margin-top: -0.15rem;
@@ -293,6 +302,11 @@ html,body{
 }
 .content2 li{
     margin-bottom: 0.15rem;
+}
+.font18{
+    margin-top: -0.35rem;
+    font-size: 8em;
+    margin-left: 28.5%;
 }
 /*.page1 p{
     text-align: center;
