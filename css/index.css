@@ -123,28 +123,28 @@ html,body{
 }
 .font4{
     position: absolute;
-    top: 7.6rem;
+    top: 76%;
     left: 3%;
     font-size: 4.1em;
     color: #40C4FF;
 }
 .font5{
     position: absolute;
-    top: 7.9rem;
+    top: 79%;
     left: 28%;
     font-size: 3.6em;
     color: #78909C;
 }
 .font6{
     position: absolute;
-    top: 7.9rem;
+    top: 79%;
     left: 54%;
     font-size: 3.4em;
     color: #69F0AE;
 }
 .font7{
     position: absolute;
-    top: 7.9rem;
+    top: 79%;
     left: 78%;
     font-size: 3.4em;
     color: #37474F;
@@ -265,7 +265,6 @@ html,body{
     margin-left: 38%;
     margin-top: -0.5rem;
 }
-
 .box{
     margin-left: 35%;
     font-size: 0.7em;
