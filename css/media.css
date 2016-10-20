@@ -25,6 +25,12 @@
 	.font3{
 		display: none;
 	}
+	.font8{
+		margin-top: -0.03rem;
+	}
+	.info3{
+		margin-top: -0.6rem;
+	}
 }
 @media(min-width: 375px){
 	.photo{
@@ -84,6 +90,9 @@
 	.font7{
 	    bottom: 2.2rem;
 	}
+	.info3{
+		margin-top: -0.3rem;
+	}
 }
 @media(min-width: 600px){
 	.photo{
@@ -115,6 +124,93 @@
 		width: 84%;
 		font-size: 1.4em;
 		margin-left: 11%;
+	}
+	.font8{
+		margin-left: 40%;
+	}
+	.hobby{
+		font-size: 0.9em;
+	}
+	.font9{
+	    top: 2.8rem;
+	    left: 14%;
+	    font-size: 4.2em;
+	}
+	.hobby1{
+	    top: 4.15rem;
+	    left: 15.5%;
+	}
+	.font10{
+	    top: 2.88rem;
+	    left: 43.5%;
+	    font-size: 4.2em;
+	}
+	.hobby2{
+	    top: 4.16rem;
+	    left: 47%;
+	}
+	.font11{
+	    top: 2.86rem;
+	    left: 73%;
+	    font-size: 4.3em;
+	}
+	.hobby3{
+	    top: 4.16rem;
+	    left: 76%;
+	}
+	.font12{
+	    top: 4.88rem;
+	    left: 14%;
+	    font-size: 4.2em;
+	}
+	.hobby4{
+	    top: 6.15rem;
+	    left: 18%;
+	}
+	.font13{
+	    top: 4.95rem;
+	    left: 45%;
+	    font-size: 4em;
+	}
+	.hobby5{
+	    top: 6.18rem;
+	    left: 48.5%;
+	}
+	.font14{
+	    top: 5rem;
+	    left: 73%;
+	    font-size: 3.9em;
+	}
+	.hobby6{
+	    top: 6.2rem;
+	    left: 77.5%;
+	}
+	.font15{
+	    top: 6.95rem;
+	    left: 15%;
+	    font-size: 3.8em;
+	}
+	.hobby7{
+	    top: 8.15rem;
+	    left: 18.5%;
+	}
+	.font16{
+	    top: 6.85rem;
+	    left: 44%;
+	    font-size: 4.2em;
+	}
+	.hobby8{
+	    top: 8.15rem;
+	    left: 48.5%;
+	}
+	.font17{
+	    top: 6.88rem;
+	    left: 74.5%;
+	    font-size: 3.7em;
+	}
+	.hobby9{
+	    top: 8.17rem;
+	    left: 76.5%;
 	}
 }
 @media(min-width: 768px){
@@ -202,5 +298,12 @@
 	    bottom: 9%;
 	    left: 82%;
 	    font-size: 3.8em;
+	}
+	.font8{
+		margin-top: 0.5rem;
+	}
+	.info3{
+		margin-left: 39.5%;
+		margin-top: -0.03rem
 	}
 }

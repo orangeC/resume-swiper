@@ -1,4 +1,4 @@
-html,body,ul,li,div,p{
+html,body,ul,li,div,p,span{
     margin: 0;
     padding: 0;
 }
@@ -118,6 +118,9 @@ html,body{
     font-size: 5.8em;
     margin-left: 37%;
 }
+.font8{
+    margin-top: 0.07rem;
+}
 .font4{
     position: absolute;
     bottom: 0.7rem;
@@ -146,6 +149,110 @@ html,body{
     font-size: 3.4em;
     color: #37474F;
 }
+.font9{
+    position: absolute;
+    top: 3.2rem;
+    left: 10%;
+    font-size: 3.7em;
+    color: #006064;
+}
+.hobby1{
+    top: 4.75rem;
+    left: 14%;
+}
+.font10{
+    position: absolute;
+    top: 3.28rem;
+    left: 40%;
+    font-size: 3.8em;
+    color: #006064;
+}
+.hobby2{
+    top: 4.77rem;
+    left: 47%;
+}
+.font11{
+    position: absolute;
+    top: 3.26rem;
+    left: 70%;
+    font-size: 3.9em;
+    color: #006064;
+}
+.hobby3{
+    top: 4.78rem;
+    left: 76%;
+}
+.font12{
+    position: absolute;
+    top: 5.1rem;
+    left: 11%;
+    font-size: 3.8em;
+    color: #006064;
+}
+.hobby4{
+    top: 6.64rem;
+    left: 18%;
+}
+.font13{
+    position: absolute;
+    top: 5.25rem;
+    left: 42%;
+    font-size: 3.6em;
+    color: #006064;
+}
+.hobby5{
+    top: 6.66rem;
+    left: 48.5%;
+}
+.font14{
+    position: absolute;
+    top: 5.29rem;
+    left: 71%;
+    font-size: 3.5em;
+    color: #006064;
+}
+.hobby6{
+    top: 6.69rem;
+    left: 77%;
+}
+.font15{
+    position: absolute;
+    top: 7.15rem;
+    left: 11%;
+    font-size: 3.4em;
+    color: #006064;
+}
+.hobby7{
+    top: 8.55rem;
+    left: 18%;
+}
+.font16{
+    position: absolute;
+    top: 7.03rem;
+    left: 41%;
+    font-size: 3.8em;
+    color: #006064;
+}
+.hobby8{
+    top: 8.55rem;
+    left: 48.5%;
+}
+.font17{
+    position: absolute;
+    top: 7.07rem;
+    left: 72%;
+    font-size: 3.3em;
+    color: #006064;
+}
+.hobby9{
+    top: 8.57rem;
+    left: 76.5%;
+}
+.hobby{
+    position: absolute;
+    font-size: 0.6em;
+}
+
 .info{
     margin-top: -0.15rem;
     margin-bottom: 0.2rem;
@@ -156,8 +263,9 @@ html,body{
 }
 .info3{
     margin-left: 38%;
-    margin-top: -0.35rem;
+    margin-top: -0.5rem;
 }
+
 .box{
     margin-left: 35%;
     font-size: 0.7em;
