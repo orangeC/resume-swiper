@@ -307,37 +307,17 @@ html,body{
     margin-top: -0.6rem;
     margin-left: 36%
 }
-/*.info44{
-    margin-top: -0.62rem;
-    margin-left: 36.5%
-}*/
-.info{
-    margin-top: -0.15rem;
-    margin-bottom: 0.2rem;
-    margin-left: 37%;
-    font-weight: bold;
-    font-size: 1.2em;
-    color: #212121;
-}
 .info5{
     position: absolute;
-    top: 2.28rem;
+    top: 2.55rem;
     color: #212121;
     font-weight: bold;
 }
-/*.font44{
-    display: block;
-    margin-bottom: 0.4rem;
-    color: #00838F;
-    margin-top: 0.01%;
-    font-size: 8em;
-    margin-left: 27%;
-}*/
 .font18{
     position: absolute;
-    top: -0.65rem;
+    top: -0.43rem;
     font-size: 8em;
-    left: 27%;
+    left: 28%;
     color: #00838F;
 }
 .font19{
@@ -350,36 +330,37 @@ html,body{
     font-size: 0.8em;
 }
 .font20{
-    top: 2.66rem;
-    left: 44.5%;
+    top: 3rem;
+    left: 45%;
+    font-size: 1.6em;
 }
 .font21{
-    top: 3.82rem;
-    left: 44.7%;
-}
-.font22{
-    top: 4.82rem;
+    top: 3.9rem;
     left: 44.9%;
 }
+.font22{
+    top: 4.9rem;
+    left: 45.1%;
+}
 .font23{
-    top: 5.88rem;
-    left: 45%;
+    top: 5.98rem;
+    left: 45.1%;
 }
 .word1{
-    top: 3.4rem;
-    left: 35.6%;
+    top: 3.51rem;
+    left: 36.5%;
 }
 .word2{
-    top: 4.53rem;
-    left: 38.2%;
+    top: 4.59rem;
+    left: 38.6%;
 }
 .word3{
-    top: 5.52rem;
-    left: 25.2%;
+    top: 5.55rem;
+    left: 26.2%;
 }
 .word4{
-    top: 6.56rem;
-    left: 40.8%;
+    top: 6.59rem;
+    left: 41.5%;
 }
 .wechat{
     display: block;
