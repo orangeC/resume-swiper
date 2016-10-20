@@ -305,7 +305,7 @@ html,body{
 }
 .info4{
     margin-top: -0.6rem;
-    margin-left: 36%
+    margin-left: 36.5%
 }
 .info5{
     position: absolute;
@@ -347,20 +347,20 @@ html,body{
     left: 46.1%;
 }
 .word1{
-    top: 3.7rem;
+    top: 3.72rem;
     left: 36.8%;
 }
 .word2{
     top: 4.75rem;
-    left: 38.9%;
+    left: 39%;
 }
 .word3{
     top: 5.62rem;
-    left: 26.5%;
+    left: 26.7%;
 }
 .word4{
     top: 6.59rem;
-    left: 41.8%;
+    left: 41.9%;
 }
 .wechat{
     display: block;
@@ -368,5 +368,5 @@ html,body{
     width: 1.8rem;
     height: 1.8rem;
     top: 7.05rem;
-    left: 36%
+    left: 37%
 }

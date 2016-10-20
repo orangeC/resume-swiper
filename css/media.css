@@ -47,7 +47,8 @@
 		display: none;
 	}
 	.info5{
-		margin-top: 0.4rem;
+		top: 0.06rem;
+		left: -0.3s%
 	}
 	.font20{
 	    top: 1.15rem;
@@ -141,10 +142,17 @@
 		margin-top: -0.3rem;
 	}
 	.info5{
-		margin-left: 37.2%;
+		left: 0.7%
 	}
 	.font18{
-		margin-left: 28.5%;
+		left: 29.5%
+	}
+	.word3{
+	    top: 5.62rem;
+	    left: 27.5%;
+	}
+	.wechat{
+	    left: 36.2%
 	}
 }
 @media(min-width: 600px){
@@ -266,13 +274,11 @@
 	    left: 76.5%;
 	}
 	.font18{
-		margin-top: 0.2rem;
-		margin-left: 32.5%;
+		left: 32%;
 		font-size: 10.5em;
 	}
 	.info5{
-		margin-top: -0.4rem;
-		margin-left: 39.5%;
+		left: 5.5%
 	}
 	.font19{
 	    font-size: 2.3em;
@@ -486,12 +492,13 @@
 	    left: 76.5%;
 	}
 	.font18{
-		margin-top: -0.13rem;
-		margin-left: 35.5%
+		left: 35.5%;
+		top: 0.01rem;
 	}
 	.info5{
-		margin-top: -0.37rem;
-		margin-left: 40.4%
+		left: 3.8%;
+		top: 2.06rem;
+		font-size: 1.7em;
 	}
 	.font19{
 	    font-size: 3em;
