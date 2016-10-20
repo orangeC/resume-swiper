@@ -303,10 +303,14 @@ html,body{
 .content2 li{
     margin-bottom: 0.15rem;
 }
+.info4{
+    margin-top: -0.6rem;
+    margin-left: 35.8%
+}
 .font18{
-    margin-top: -0.35rem;
+    margin-top: -0.42rem;
     font-size: 8em;
-    margin-left: 28.5%;
+    margin-left: 26.7%;
 }
 .font19{
     position: absolute;
@@ -318,38 +322,45 @@ html,body{
     font-size: 0.8em;
 }
 .font20{
-    top: 3.4rem;
-    left: 46%;
+    top: 3.15rem;
+    left: 44.7%;
 }
 .font21{
-    top: 4.6rem;
-    left: 46%;
+    top: 4.35rem;
+    left: 44.7%;
 }
 .font22{
-    top: 5.8rem;
-    left: 46.2%;
+    top: 5.35rem;
+    left: 44.9%;
 }
 .font23{
-    top: 7rem;
-    left: 46.3%;
+    top: 6.45rem;
+    left: 45%;
 }
 .word1{
-    top: 4.1rem;
-    left: 37.6%;
+    top: 3.91rem;
+    left: 35.6%;
 }
 .word2{
-    top: 5.35rem;
-    left: 40%;
+    top: 5.05rem;
+    left: 38.2%;
 }
 .word3{
-    top: 6.55rem;
-    left: 27%;
+    top: 6.04rem;
+    left: 25.2%;
 }
 .word4{
-    top: 7.65rem;
-    left: 42.5%;
+    top: 7.08rem;
+    left: 40.8%;
 }
-
+.wechat{
+    display: block;
+    position: absolute;
+    width: 1.8rem;
+    height: 1.8rem;
+    top: 7.6rem;
+    left: 36%
+}
 
 /*.page1 p{
     text-align: center;
