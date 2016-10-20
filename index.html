@@ -13,8 +13,6 @@
    
 </head>
 <body>
-<!-- 音乐按钮 -->
-<span class="music-btn animated music-animate infinite"></span>
     <!-- 底部箭头 -->
     <span class="arrow animated arrow-animate infinite">
         <img width="100%" src="images/arrow.png" alt="">
@@ -23,13 +21,13 @@
 <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide page1">
-	        <img class="photo "  src="images/1cun.jpg" alt="">
-            <h1 class="resume" >个人简历</h1>
-            <p class="position" >
+	        <img class="photo ani"  swiper-animate-effect="bounceIn" swiper-animate-duration="0.7s" swiper-animate-delay="0.3s" src="images/1cun.jpg" alt="">
+            <h1 class="resume ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="1s">个人简历</h1>
+            <p class="position ani" swiper-animate-effect="flipInY" swiper-animate-duration="1s" swiper-animate-delay="1.8s">
                 <span>求职意向：</span>
                 <span>前端开发</span>
             </p>
-            <p class="name" >程誉萱</p>
+            <p class="name ani" swiper-animate-effect="flipInX" swiper-animate-duration="1s" swiper-animate-delay="2.1s">程誉萱</p>
         </div>
         <div class="swiper-slide page2">
             <i class="iconfont font1">&#xe6ab;</i>
@@ -147,7 +145,7 @@ $(document).ready(function(){
 	var mySwiper = new Swiper ('.swiper-container', {
 	    direction: 'vertical',
 	    loop: false,
-        initialSlide :5,
+        initialSlide :0,
 	    
 	    onInit: function(swiper){ //    Swiper2.x的初始化是onFirstInit
 	      swiperAnimateCache(swiper); //隐藏动画元素 
