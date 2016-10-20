@@ -43,6 +43,40 @@
 	.font7{
 		top: 7.12rem;
 	}
+	.font18{
+		display: none;
+	}
+	.info5{
+		margin-top: 0.4rem;
+	}
+	.font20{
+	    top: 1.15rem;
+	}
+	.font21{
+	    top: 2.35rem;
+	}
+	.font22{
+	    top: 3.35rem;
+	}
+	.font23{
+	    top: 4.45rem;
+	}
+	.word1{
+	    top: 1.91rem;
+	}
+	.word2{
+	    top: 3.05rem;
+	}
+	.word3{
+	    top: 4.04rem;
+	}
+	.word4{
+	    top: 5.08rem;
+	}
+	.wechat{
+		top: 5.6rem;
+		left: 37%
+	}
 }
 @media(min-width: 375px){
 	.photo{
@@ -75,6 +109,7 @@
 	.font7{
 	    top: 8rem;
 	}
+
 }
 @media(min-width: 411px){
 	.resume{
@@ -104,6 +139,12 @@
 	}
 	.info3{
 		margin-top: -0.3rem;
+	}
+	.info5{
+		margin-left: 37.2%;
+	}
+	.font18{
+		margin-left: 28.5%;
 	}
 }
 @media(min-width: 600px){
@@ -223,6 +264,48 @@
 	.hobby9{
 	    top: 8.17rem;
 	    left: 76.5%;
+	}
+	.font18{
+		margin-top: 0.2rem;
+		margin-left: 32.5%;
+		font-size: 10.5em;
+	}
+	.info5{
+		margin-top: -0.4rem;
+		margin-left: 39.5%;
+	}
+	.font19{
+	    font-size: 2.3em;
+	}
+	.word{
+	    font-size: 1.2em;
+	}
+	.font20{
+	    left: 46.4%;
+	}
+	.font21{
+	    left: 46.4%;
+	}
+	.font22{
+	    left: 46.6%;
+	}
+	.font23{
+	    left: 46.7%;
+	}
+	.word1{
+	    left: 38.3%;
+	}
+	.word2{
+	    left: 39.9%;
+	}
+	.word3{
+	    left: 27.9%;
+	}
+	.word4{
+	    left: 43.5%;
+	}
+	.wechat{
+	    left: 37%
 	}
 }
 @media(min-width: 768px){
@@ -401,5 +484,55 @@
 	.hobby9{
 	    top: 6.92rem;
 	    left: 76.5%;
+	}
+	.font18{
+		margin-top: -0.13rem;
+		margin-left: 35.5%
+	}
+	.info5{
+		margin-top: -0.37rem;
+		margin-left: 40.4%
+	}
+	.font19{
+	    font-size: 3em;
+	}
+	.word{
+	    font-size: 1.3em;
+	}
+	.font20{
+	    top: 2.28rem;
+	    left: 45.6%;
+	}
+	.font21{
+	    top: 3.25rem;
+	    left: 45.6%;
+	}
+	.font22{
+	    top: 4.15rem;
+	    left: 45.7%;
+	}
+	.font23{
+	    top: 5.08rem;
+	    left: 46.1%;
+	}
+	.word1{
+	    top: 2.91rem;
+	    left: 39.1%;
+	}
+	.word2{
+	    top: 3.9rem;
+	    left: 41.5%;
+	}
+	.word3{
+	    top: 4.74rem;
+	    left: 31.6%;
+	}
+	.word4{
+	    top: 5.68rem;
+	    left: 43.6%;
+	}
+	.wechat{
+	    top: 6.1rem;
+	    left: 36.3%
 	}
 }
