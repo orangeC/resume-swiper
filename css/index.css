@@ -308,6 +308,49 @@ html,body{
     font-size: 8em;
     margin-left: 28.5%;
 }
+.font19{
+    position: absolute;
+    font-size: 1.7em;
+    color: #0097A7
+}
+.word{
+    position: absolute;
+    font-size: 0.8em;
+}
+.font20{
+    top: 3.4rem;
+    left: 46%;
+}
+.font21{
+    top: 4.6rem;
+    left: 46%;
+}
+.font22{
+    top: 5.8rem;
+    left: 46.2%;
+}
+.font23{
+    top: 7rem;
+    left: 46.3%;
+}
+.word1{
+    top: 4.1rem;
+    left: 37.6%;
+}
+.word2{
+    top: 5.35rem;
+    left: 40%;
+}
+.word3{
+    top: 6.55rem;
+    left: 27%;
+}
+.word4{
+    top: 7.65rem;
+    left: 42.5%;
+}
+
+
 /*.page1 p{
     text-align: center;
     color:#fff;
