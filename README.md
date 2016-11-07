@@ -1,2 +1,2 @@
 # resume-swiper
-   personal resume
+   personal resume for WeChat H5 show

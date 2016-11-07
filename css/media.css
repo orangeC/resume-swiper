@@ -123,9 +123,10 @@
 	    left: 27.5%;
 	}
 	.word4{
-	    top: 6.59rem;
+	    top: 6.5rem;
 	    left: 42.5%;
 	}
+
 }
 @media(min-width: 411px){
 	.resume{
